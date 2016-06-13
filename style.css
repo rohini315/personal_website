@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
 
-* {
-  box-sizing: border-box;
-}
 
 html, body {
   margin: 0;
@@ -13,16 +10,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+
+/*nav bar and background styling */
 .main {
-  background: linear-gradient( rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), url('giphy.gif');
-  height: 700px;
+  background: linear-gradient( rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), url('subway_2.gif');
+  height: 1000px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-
 
 .header .container {
   width: 80%;
@@ -62,7 +59,6 @@ ul {
   font-weight: 100;
   padding: 10px 16px;
   text-decoration: none;
-
 }
 
 .logo a,
@@ -83,6 +79,11 @@ ul {
 .main-nav a:hover {
   opacity: 1;
 }
+
+/*End of nav bar styling */
+
+
+/*Main text- same styling for contact page */
 
 .text {
   position: relative;
@@ -107,15 +108,16 @@ ul {
   font-weight: 100;
 }
 
+/*End of Main Text*/
 
+/*About page styling */
 #about_bg{
   background: linear-gradient( rgba(64, 64, 64, 0.9), rgba(64, 64, 64, 0.9)), url('bg.gif');
-  height: 700px;
+  height: 1000px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 .about_text h1 {
@@ -124,7 +126,6 @@ ul {
   letter-spacing: 10px;
   color: #fff;
   font-weight: 300;
-
 }
 
 .about_text{
@@ -148,8 +149,20 @@ ul {
   width: 600px;
   position: absolute;
   z-index: 1;
-  margin-top:-391px;
+  margin-top:-644px;
   margin-left: 452px;
   color:#fff;
   font-weight: 200;
+}
+
+/*End of about page */
+
+
+#contact_bg{
+  background: linear-gradient( rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), url('giphy.gif');
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
