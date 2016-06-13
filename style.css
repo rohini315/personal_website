@@ -111,7 +111,7 @@ ul {
 /*End of Main Text*/
 
 /*About page styling */
-#about_bg{
+#about_bg {
   background: linear-gradient( rgba(64, 64, 64, 0.9), rgba(64, 64, 64, 0.9)), url('bg.gif');
   height: 1000px;
   background-position: center;
@@ -128,7 +128,7 @@ ul {
   font-weight: 300;
 }
 
-.about_text{
+.about_text {
   position: absolute;
   top: 200px;
   text-align: center
@@ -158,7 +158,7 @@ ul {
 /*End of about page */
 
 
-#contact_bg{
+#contact_bg {
   background: linear-gradient( rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), url('giphy.gif');
   height: 1000px;
   background-position: center;
