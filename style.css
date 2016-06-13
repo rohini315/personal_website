@@ -22,7 +22,7 @@ body {
   background-attachment: fixed;
 }
 
-/*******Navigation*******/
+
 
 .header .container {
   width: 80%;
@@ -36,7 +36,6 @@ body {
   display: flex;
   flex-direction: row; 
 } 
-
 
 .header {
   height: 60px;
@@ -109,5 +108,48 @@ ul {
 }
 
 
+#about_bg{
+  background: linear-gradient( rgba(64, 64, 64, 0.9), rgba(64, 64, 64, 0.9)), url('bg.gif');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
+}
 
+.about_text h1 {
+  text-transform: uppercase;
+  font-size: 45px; 
+  letter-spacing: 10px;
+  color: #fff;
+  font-weight: 300;
+
+}
+
+.about_text{
+  position: absolute;
+  top: 200px;
+  text-align: center
+}
+
+.about_text h1 {
+  text-transform: uppercase;
+  font-size: 45px; 
+  letter-spacing: 10px;
+  color: #fff;
+  font-weight: 100; 
+  margin: 3px 287px;
+  width: 100%;
+}
+
+#about_text p {
+  font-size: 20px;
+  width: 600px;
+  position: absolute;
+  z-index: 1;
+  margin-top:-391px;
+  margin-left: 452px;
+  color:#fff;
+  font-weight: 200;
+}
